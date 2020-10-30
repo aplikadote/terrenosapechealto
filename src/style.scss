@@ -1,5 +1,5 @@
 // 1. Your custom variables and variable overwrites.
-$navbar-nav-item-color: red;
+$navbar-nav-item-color: black;
 $navbar-nav-item-hover-color: green;
 $navbar-nav-item-onclick-color: blue;
 $navbar-nav-item-active-color: yellow; 
@@ -13,8 +13,3 @@ $navbar-nav-item-active-color: yellow;
 
 // 4. Import UIkit.
 @import "uikit/src/scss/uikit-theme.scss";
-
-.menu {
-    background-color: white;
-}
-
