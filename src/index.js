@@ -6,9 +6,10 @@ import { Loader } from "@googlemaps/js-api-loader"
 // loads the Icon plugin
 UIkit.use(Icons);
 
+const key = "AIzaSyALGe5_JX1x8Po0MsfJ9fVk-oytY2e7x00";
 
 const loader = new Loader({
-    apiKey: "AIzaSyALGe5_JX1x8Po0MsfJ9fVk-oytY2e7x00",
+    apiKey: key,
     version: "weekly"    
 });
 loader.load().then(() => {
