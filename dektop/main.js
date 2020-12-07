@@ -1,20 +1,15 @@
-import './style.scss';
-import UIkit from 'uikit';
-import Icons from 'uikit/dist/js/uikit-icons';
-import { Loader } from "@googlemaps/js-api-loader"
+function myMap() {
+  const myLatLng = { lat: -42.81652847, lng: -73.67133086 };  
 
-// loads the Icon plugin
-UIkit.use(Icons);
+  var mapProp = {
+    center: myLatLng,
+    zoom: 12.21,
+  };
+  var map = new google.maps.Map(document.getElementById("map"), mapProp);
 
-const key = "AIzaSyALGe5_JX1x8Po0MsfJ9fVk-oytY2e7x00";
-
-const loader = new Loader({
-    apiKey: key,
-    version: "weekly"    
-});
-loader.load().then(() => {
-    map = new google.maps.Map(document.getElementById("map"), {
-        center: { lat: -42.8352686, lng: -73.687716 },
-        zoom: 12.21,        
-    });
-});
+  new google.maps.Marker({
+    position: myLatLng,
+    map,
+    title: 'Terrenos Apeche Alto'
+  });
+}
