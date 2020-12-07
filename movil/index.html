@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Terrenos Apeche Alto Chiloé</title>
+
+    <!-- UIkit CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/uikit@3.5.12/dist/css/uikit.min.css"
+    />
+
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.12/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.12/dist/js/uikit-icons.min.js"></script>
+
+
+    <link
+      rel="stylesheet"
+      href="style.css"
+    />
+  </head>
+
+  <body>
+    <div class="navbar-titulo" uk-sticky="offset">
+      
+      <nav class="uk-navbar-container" uk-navbar>
+        <div class="uk-navbar-left uk-visible@m">
+          <ul class="uk-navbar-nav">
+            <li><a href="#inicio" uk-scroll><span class="navbar-brand">Terrenos Apeche Alto</span></a></li>            
+          </ul>
+        </div>
+
+        <div class="uk-navbar-center uk-visible@m">
+          <ul class="uk-navbar-nav">
+            <li><a href="#inicio" uk-scroll><span class="navbar-item">Inicio</span></a></li>
+            <li><a href="#info" uk-scroll><span class="navbar-item">Información</span></a></li>
+            <li><a href="#ubicacion" uk-scroll><span class="navbar-item">Ubicación</span></a></li>
+            <li><a href="#plano" uk-scroll><span class="navbar-item">Plano</span></a></li>
+            <li><a href="#contactos" uk-scroll><span class="navbar-item">Contactos</span></a></li>            
+          </ul>
+        </div>
+
+        <div class="uk-navbar-right">
+          <ul class="uk-navbar-nav">
+            <li uk-tooltip="+56 9 89754599"><a href="tel:+56989754599"><span class="uk-icon-button" uk-icon="phone"></span></a></li>              
+            <li uk-tooltip="Facebook" ><a href="#"><span class="uk-icon-button" uk-icon="facebook"></span></a></li>
+            <li uk-tooltip="Instagram"><a href="#"><span class="uk-icon-button" uk-icon="instagram"></span></a></li>            
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <div id="inicio" class="contenedor contenedor-inicio">
+      <!-- <img class="foto-principal-imagen" src="images/foto007_2.jpeg" /> -->
+      <div class="inicio-texto-container">
+        <span class="inicio-texto01">Te invitamos a conocer</span><br />
+        <span class="inicio-texto02">TERRENOS APECHE ALTO</span>
+      </div>
+    </div>
+
+    <div id="info" class="contenedor" uk-height-viewport>
+      <div class="uk-container">
+        
+        <div class="uk-margin-large-top uk-flex uk-flex-center">
+          <h1 class="uk-margin seccion-titulo">Información</h1>
+        </div>
+
+        <div class="uk-margin-top">
+          Hermosos terrenos con bosque añoso (nativo) y bosque renoval (joven)
+          proyecto conservacion preservacion medio ambiente
+
+          <ul>
+            <li>
+              Con disponibilidad de agua de rio para recoleccion via ariete
+              hidraulico
+            </li>
+            <li>
+              Los terrenos estarán adaptados para instalacion electrica
+              subterranea a coordinar
+            </li>
+            <li></li>
+            <li>capa vegetal entre 80 y 90 cms (sirve para cultivar)</li>
+            <li>Camino principal 10 metros de ancho</li>
+            <li>Pasos de servidumbre de 8 metros de ancho</li>
+            <li>Convenio para uso de energia renovable (eolica, solar, etc)</li>
+            <li>A 10 minutos de ruta 5 sur</li>
+          </ul>
+        </div>
+
+        <div class="uk-margin-top">
+          <div
+            class="uk-child-width-1-3@m"
+            uk-grid
+            uk-lightbox="animation: slide"
+          >
+            <div>
+              <a
+                class="uk-inline"
+                href="images/foto005.jpeg"
+                data-caption="Caption 2"
+              >
+                <img class="foto-carrusel" src="images/foto005_2.jpeg" alt="" />
+              </a>
+            </div>
+            <div>
+              <a
+                class="uk-inline"
+                href="images/foto002.jpeg"
+                data-caption="Caption 2"
+              >
+                <img class="foto-carrusel" src="images/foto002_2.jpeg" alt="" />
+              </a>
+            </div>
+            <div>
+              <a
+                class="uk-inline"
+                href="images/foto003.jpeg"
+                data-caption="Caption 3"
+              >
+                <img class="foto-carrusel" src="images/foto003_2.jpeg" alt="" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="ubicacion" class="contenedor" uk-height-viewport>
+      <div class="uk-container">        
+
+        <div class="uk-margin-large-top uk-flex uk-flex-center">
+          <h1 class="uk-margin seccion-titulo">Ubicación</h1>
+        </div>
+
+        <div class="uk-margin-top">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sem ex,
+          accumsan rhoncus tempor in, tempor sed nisl. Aenean volutpat mollis
+          interdum. Vivamus maximus et eros quis laoreet. Mauris euismod est ut
+          lobortis interdum. Pellentesque vehicula erat eget varius iaculis. In
+          condimentum orci et tellus tincidunt cursus. Nam at lectus dolor.
+          Suspendisse vel tellus felis. Class aptent taciti sociosqu ad litora
+          torquent per conubia nostra, per inceptos himenaeos. Phasellus
+          vestibulum ultrices libero eu varius. Sed vitae justo aliquet sapien
+          egestas laoreet. Quisque finibus molestie lacus, vel venenatis tortor
+          ornare in. Mauris condimentum imperdiet lectus, nec ultricies leo
+          lacinia ac. In dignissim faucibus eros at venenatis. Aenean cursus
+          nibh ac enim tristique dapibus.
+        </div>
+
+        <div id="map"></div>
+      </div>
+    </div>
+
+    <div id="plano" class="contenedor" uk-height-viewport>
+      <div class="uk-container">        
+
+        <div class="uk-margin-large-top uk-flex uk-flex-center">
+          <h1 class="uk-margin seccion-titulo">Plano</h1>
+        </div>
+
+        <div class="uk-margin-top">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sem ex,
+          accumsan rhoncus tempor in, tempor sed nisl. Aenean volutpat mollis
+          interdum. Vivamus maximus et eros quis laoreet. Mauris euismod est ut
+          lobortis interdum. Pellentesque vehicula erat eget varius iaculis. In
+          condimentum orci et tellus tincidunt cursus. Nam at lectus dolor.
+          Suspendisse vel tellus felis. Class aptent taciti sociosqu ad litora
+          torquent per conubia nostra, per inceptos himenaeos. Phasellus
+          vestibulum ultrices libero eu varius. Sed vitae justo aliquet sapien
+          egestas laoreet. Quisque finibus molestie lacus, vel venenatis tortor
+          ornare in. Mauris condimentum imperdiet lectus, nec ultricies leo
+          lacinia ac. In dignissim faucibus eros at venenatis. Aenean cursus
+          nibh ac enim tristique dapibus.
+        </div>
+
+        <div id="map"></div>
+      </div>
+    </div>
+
+    <div id="contactos" class="contenedor" uk-height-viewport>
+      <div class="uk-container">
+        
+        <div class="uk-margin-large-top uk-flex uk-flex-center">
+          <h1 class="uk-margin seccion-titulo">Contactos</h1>
+        </div>
+
+        <div class="uk-margin-top">
+          <form class="uk-container uk-container-xsmall uk-form-stacked">
+            <div class="uk-margin">
+              <label class="uk-form-label" for="form-stacked-text"
+                >Nombre</label
+              >
+              <div class="uk-form-controls">
+                <input class="uk-input" id="form-stacked-text" type="text" />
+              </div>
+            </div>
+
+            <div class="uk-margin">
+              <label class="uk-form-label" for="form-stacked-text"
+                >Correo Electrónico</label
+              >
+              <div class="uk-form-controls">
+                <input class="uk-input" id="form-stacked-text" type="text" />
+              </div>
+            </div>
+
+            <div class="uk-margin">
+              <label class="uk-form-label" for="form-stacked-text"
+                >Comentarios</label
+              >
+              <div class="uk-form-controls">
+                <textarea class="uk-textarea" rows="5"></textarea>
+              </div>
+            </div>
+
+            <div class="uk-margin">
+              <a class="uk-button uk-button-primary">Enviar</a>
+            </div>
+          </form>
+        </div>
+      </div>
+   
+    <script src="./main.js"></script>
+  </body>
+</html>
