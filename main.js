@@ -1,14 +1,16 @@
 function myMap() {
-  const myLatLng = { lat: -42.81652847, lng: -73.67133086 };  
 
+  const centro = { lat: -42.7038279, lng: -73.6593655 };  
+  const ubicacion = { lat: -42.8171989, lng: -73.7094218 };  
+  
   var mapProp = {
-    center: myLatLng,
-    zoom: 12.21,
+    center: centro,
+    zoom: 10,
   };
   var map = new google.maps.Map(document.getElementById("map"), mapProp);
 
   new google.maps.Marker({
-    position: myLatLng,
+    position: ubicacion,
     map,
     title: 'Terrenos Apeche Alto'
   });

@@ -51,6 +51,9 @@ ul {
   text-align: center;
   color: rgb(250, 250, 250);
   margin-top: -80px;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 3em;
 }
 
 .inicio-texto-container {
@@ -58,12 +61,6 @@ ul {
   top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
-
-.inicio-texto01 {
-  font-style: normal;
-  font-weight: bolder;
-  font-size: 2em;
 }
 
 .inicio-texto02 {
@@ -82,3 +79,12 @@ ul {
   border-radius: 10%;
 }
 
+.map {
+  width: 100%;
+  height: 500px
+}
+
+.ubicacion {
+  width: 100%;
+  height: 500px;
+}
