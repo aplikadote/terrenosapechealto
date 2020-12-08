@@ -1,7 +1,9 @@
 function myMap() {
 
-  const centro = { lat: -42.7038279, lng: -73.6593655 };  
-  const ubicacion = { lat: -42.8171989, lng: -73.7094218 };  
+  var x = -42.82;
+  var y = -73.67;
+  const centro = { lat: -42.66, lng: -73.66 };  
+  const ubicacion = { lat: x, lng: y };  
   
   var mapProp = {
     center: centro,
