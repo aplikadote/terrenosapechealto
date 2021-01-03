@@ -3,6 +3,7 @@
   --card-color: rgb(220, 238, 206);
   --black: rgb(30, 30, 30);
   color: var(--black);
+   background-color: var(--base-color);
 }
 
 .uk-navbar-container:not(.uk-navbar-transparent) {
@@ -37,8 +38,9 @@ ul {
 }
 
 .contenedor {
+
   border: none;
-  background-color: var(--base-color);
+  /** background-color: var(--base-color); */
 }
 
 .contenedor-inicio {
@@ -71,7 +73,13 @@ ul {
 }
 
 .seccion-titulo {
+  border-bottom: 1px solid black;
+  /**background: rgb(155, 205, 155);**/
+}
+
+.seccion-titulo h1 {
   font-weight: 500;
+  margin-top: 20px;
 }
 
 .foto-carrusel {
