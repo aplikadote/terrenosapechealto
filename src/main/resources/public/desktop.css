@@ -1,5 +1,5 @@
 :root {
-  --base-color: rgb(150, 200, 220);
+  --base-color: rgb(150,200,150);
   --card-color: rgb(220, 238, 206);
   --black: rgb(50, 50, 50);
   color: var(--black);

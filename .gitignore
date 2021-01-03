@@ -1,4 +1,3 @@
 node_modules
-/nbproject/private/
-dist
 debug.log
+/target/
