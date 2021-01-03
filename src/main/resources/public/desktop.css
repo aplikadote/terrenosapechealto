@@ -1,7 +1,7 @@
 :root {
   --base-color: rgb(150,200,150);
   --card-color: rgb(220, 238, 206);
-  --black: rgb(50, 50, 50);
+  --black: rgb(30, 30, 30);
   color: var(--black);
 }
 
@@ -9,9 +9,10 @@
   background: var(--base-color);
 }
 
+/**
 .uk-card-default {
   background: var(--card-color);
-}
+}*/
 
 ul {
   list-style-type: disc ;
